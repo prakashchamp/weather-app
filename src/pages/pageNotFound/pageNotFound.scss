@@ -1,0 +1,21 @@
+.page-not-found {
+  margin: 15rem 10rem;
+  text-align: left;
+  h1 {
+    color: rgb(139, 0, 139);
+    font-size: 3rem;
+  }
+
+  p {
+    margin: 1rem 0;
+    font-size: 1.3rem;
+  }
+
+  button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 2px solid rgb(139, 0, 139);
+    outline: none;
+  }
+}

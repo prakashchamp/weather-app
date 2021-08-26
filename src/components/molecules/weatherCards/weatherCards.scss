@@ -1,0 +1,20 @@
+.weathercards-container {
+  display: flex;
+  flex-direction: row;
+  padding: 4rem;
+  margin: 0 auto;
+  width: 90vw;
+  overflow-x: auto;
+  overflow-y: hidden;
+  // hide scroll bar
+  // for mozilla
+  overflow: -moz-scrollbars-none;
+  //for internet explorer
+  -ms-overflow-style: none;
+}
+
+.weathercards-container::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  background: transparent;
+}

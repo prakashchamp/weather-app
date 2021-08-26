@@ -1,0 +1,26 @@
+.city {
+  align-items: center;
+  min-width: 13rem;
+  min-height: 14rem;
+  position: relative;
+
+  p:last-child {
+    text-transform: capitalize;
+  }
+
+  i {
+    font-size: 3rem;
+  }
+}
+
+.delete {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: purple;
+  padding: 3px 11px;
+  border: 1px solid black;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}

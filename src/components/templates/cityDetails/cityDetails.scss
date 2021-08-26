@@ -1,0 +1,17 @@
+.city-details {
+  display: grid;
+  grid-template-columns: minmax(min-content, 22rem) minmax(40rem, auto);
+  height: 100vh;
+  width: 100vw;
+}
+
+.left-panel {
+  // min-width: 20rem;
+  // max-width: 25rem;
+  background-color: rgb(165, 165, 165);
+}
+
+.right-panel {
+  // min-width: 60rem;
+  // max-width: calc(100vw - 20rem);
+}

@@ -1,0 +1,33 @@
+.description-container {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  align-items: center;
+  height: 100vh;
+
+  & > * {
+    margin-top: 3rem;
+  }
+
+  & > i {
+    font-size: 6rem;
+  }
+}
+
+.description-time {
+  font-weight: 500;
+}
+
+.description-deg {
+  font-size: 3rem;
+}
+
+.description-rain,
+.description-weather {
+  display: flex;
+  align-items: center;
+  i {
+    font-size: 1.5rem;
+    margin-right: 0.8rem;
+  }
+}
